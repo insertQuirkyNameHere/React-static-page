@@ -1,13 +1,14 @@
 export default function MainContent(){
     return(
         <main>
-            <h1>Reasons I'm excited to learn React</h1>
-            <ol>
-                <li>It's a popular library, so I'll be able to fit in with the cool kids!</li>
-                <li>I'm more likely to land a job as a developer if I know React</li>
-                <li>It's composable</li>
-                <li>It's declarative</li>
-            </ol>
+            <h1>Fun facts about React</h1>
+            <ul className="facts-container">
+                <li>First released in 2013</li>
+                <li>Was originally created by Jordan Walke</li>
+                <li>Has over 100k stars on Github</li>
+                <li>Is maintained by Facebook</li>
+                <li>Powers thousands of enterprise apps including mobile apps</li>
+            </ul>
         </main>
     )
 }

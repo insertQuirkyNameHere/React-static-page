@@ -5,6 +5,13 @@ body{
     margin: 0px;
     font-family: 'Inter', sans-serif;
 }
+
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  
+}
+
 nav{
     padding: 30px 27px;
     display: flex;
@@ -36,5 +43,29 @@ nav{
 }
 
 main{
-    padding: 10px;
+    padding-top: 45px;
+    padding-left: 30px;
+    flex-grow: 1;
+    flex-basis: auto;
+    background-color: #282D35;
+    color: #FFFFFF;
+    background-image: url("../img/react-logo-big.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 25%;
+}
+
+
+h1{
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+.facts-container li{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.facts-container > li::marker{
+    font-size: 25px;
+    color: #61DAFB  ;
 }
