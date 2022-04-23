@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Header from './components/Header.js'
-import Footer from './components/Footer'
-import MainContent from './components/MainContent';
+import './css/main.css';
+import App from "./app"
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-  <Header></Header>
-  <MainContent />
-  <Footer />
+    <App></App>
   </>
 
 );

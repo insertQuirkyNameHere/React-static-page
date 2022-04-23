@@ -4,13 +4,15 @@ export default function Header(){
     return (
         <header>
             <nav>
-                <img src={react_logo} width="100px" alt="react-logo"/>
-
-                <ul className = "nav-links-container">
-                    <li className="nav-link">Pricing</li>
-                    <li className="nav-link">About</li>
-                    <li className="nav-link">Contact</li>
-                </ul>
+                <div className="logo-container">
+                <img src={react_logo} alt="react-logo" className="logo-img"/>
+                <div className="logo-text">
+                    ReactFacts
+                </div>
+                </div>
+                <div class="project-info">
+                    React Project 1
+                </div>
             </nav>
         </header>
     )
